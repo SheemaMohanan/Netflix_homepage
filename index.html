@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Netflix Home">
+    <meta name="keywords" content="HTML,CSS,JavaScript">
+    <meta name="author" content="Sheema Mohanan">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="30">
+    <link rel="stylesheet" href="style.css">
+    <!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!--to use the Google Fonts API to add fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <!--Icon in title-->
+    <link rel="icon" href="./img/netflixlogo.jpg" type="image/icon">
+    <title>Netflix India - Watch TV Shows Online, Watch Movies Online</title>
+    
+</head>
+<body>
+    <div class="bg">
+    <header>
+    <!--1st section-->
+        <nav>
+            <!--logo-->
+            <div class="brand-logo">
+                <img src="./img/netflix.svg" alt="logo" id="logo">
+            </div>
+            <!--language dropdown-->
+        <div class="language-and-signin">
+            <div class="dropdown">
+                <div id="dropdown">
+                    <i class="fa fa-globe"></i>
+                    <select name="language" id="language" class="language-selector">
+                        <option value="english" id="dropdown-bg">English</option>
+                        <option value="hindi" id="dropdown-bg"><a href="https://www.netflix.com/in-hi/">हिन्दी</a></option>
+                    </select>
+                </div>
+            </div>
+            <!--Sign in button-->
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <div class="nav-item2">
+                <button type="button" class="signin-btn"><a href="https://www.netflix.com/in/login" class="sign-in">Sign In</a></button>
+            </div>
+        </div>
+        </nav>
+    </header>
+        <div class="bg-img">
+            <div class="over-write1">
+                <h1 class="title">Unlimited movies,TV<br>shows and more.</h1>
+                <p class="subtitle">Watch anywhere. Cancel anytime.</p>
+                <p class="membership">
+                    Ready to watch? Enter your email to create or restart your membership.
+                </p>
+                <!--form for email-->
+                <form method="post" id="email-form">
+                    <div class="email-form">
+                        <input type="email" placeholder="  Email address" class="mail">
+                    </div>&nbsp;
+                    <button type="button" class="button">Get Started <i class="fa fa-chevron-right"></i>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!--section 2-->
+        <div class="features1">
+            <div class="feature-details1">
+                <h3 class="feature-title">Enjoy on your TV.</h3>
+                    <h5 class="feature-sub">Watch on smart TVs, PlayStation, Xbox, <br>
+                        Chromecast, Apple TV, Blu-ray players and <br>
+                        more.
+                    </h5>
+            </div>
+            <div class="tv">
+                <img alt="tv" class="feature-img" src="./img/tv.png">
+                <div class="feature-bg-video">
+                    <video autoplay="" loop="" muted="" class="bg-video">
+                        <source src="./img/Video%20in%20TV" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+        </div>
+    <!--section 3-->
+        <div class="features2">
+            <div id="section3">
+                <div class="feature-details2">
+                    <h3 class="feature-title">Download your shows <br>to watch offline.</h3>
+                    <h5 class="feature-sub">Save your favourites easily and always <br>have something to watch.</h5>
+                </div>
+                <div class="Mobilephone">
+                    <img src="./img/Mobile Phone.jpeg" alt="image" id="mob">
+                </div>
+            </div>
+            <div class="border">
+                <div class="poster-box">
+                    <div class="poster-container">
+                        <img src="./img/Stranger things icon.png" alt="poster" class="poster">
+                    </div>
+                    <div class="poster-details">
+                        <h4> &nbsp; Stranger Things</h4>
+                        <h6 id="downloading">&nbsp;&nbsp; Downloading...</h6>
+                    </div>
+                    <div class="gif-box">&nbsp;&nbsp;
+                        <img alt="gif" class="gif" src="./img/Downloading animation.gif">
+                    </div>
+                </div>
+            </div>
+        </div>
+    <!--section 4-->
+        <div class="features3">
+            <div class="feature-details3">
+                <h3 class="feature-title">Watch everywhere.</h3>
+                <h6 class="feature-sub">Stream unlimited movies and TV shows on <br>your phone, tablet, laptop, and TV.</h6>
+            </div>   
+            <div class="Monitor">
+                <img src="./img/Monitor.png" alt="border">
+            </div>
+            <div class="video2">
+                <video autoplay="" loop="" muted="" class="video2">
+                    <source src="./img/video%20in%20monitor" type="video/mp4">
+                </video>
+            </div>
+        </div>
+    <!--section 5-->
+        <div class="features4">
+            <div class="feature-details4">
+                <h3 class="feature-title">Create profiles for children.</h3>
+                <h6 class="feature-sub">Send children on adventures with their <br>
+                    favourite characters in a space made just for <br>
+                    them—free with your membership.</h6>
+            </div>
+            <div class="children">
+                <img src="./img/Children.png" alt="children image" class="children">
+            </div>
+        </div>   
+    <!--section 6-->
+        <section class="faq">
+            <h1>Frequently Asked Questions</h1>
+                <ul id="faq">
+                    <li><button class="faq-opt">What is Netflix?<i class="fa fa-plus"></i></button>
+                        <p>
+                            <br>Netflix is a streaming service that offers a wide variety of award-<br>
+                            winning TV shows, movies, anime, documentaries and more – on<br>
+                            thousands of internet-connected devices.<br><br>
+                            You can watch as much as you want, whenever you want,<br>
+                            without a single ad – all for one low monthly price. There's<br>
+                            always something new to discover, and new TV shows and<br>
+                            movies are added every week!<br><br>
+                        
+                        </p>
+                    </li>
+                    <li><button class="faq-opt">How much does Netflix cost?<i class="fa fa-plus"></i></button>
+                        <p>
+                            <br>Watch Netflix on your smartphone, tablet, Smart TV, laptop, or <br>
+                            streaming device, all for one fixed monthly fee. Plans range from <br>
+                            ₹ 149 to ₹ 649 a month. No extra costs, no contracts.<br><br>
+                        </p>
+                    </li>
+                    <li><button class="faq-opt">Where can I watch?<i class="fa fa-plus"></i></button>
+                        <p>
+                            <br>Watch anywhere, anytime. Sign in with your Netflix account to <br>
+                            watch instantly on the web at netflix.com from your personal <br>
+                            computer or on any internet-connected device that offers the <br>
+                            Netflix app, including smart TVs, smartphones, tablets, streaming <br>
+                            media players and game consoles.
+
+                            <br><br>You can also download your favourite shows with the iOS, <br>
+                            Android, or Windows 10 app. Use downloads to watch while <br>
+                            you're on the go and without an internet connection. Take Netflix <br>
+                            with you anywhere.<br><br>
+                        </p>
+                    </li>
+                    <li><button class="faq-opt">How do I cancel?<i class="fa fa-plus"></i></button>
+                        <p>
+                            <br>Netflix is flexible. There are no annoying contracts and no <br>
+                            commitments. You can easily cancel your account online in two <br>
+                            clicks. There are no cancellation fees – start or stop your account <br>
+                            anytime.<br><br>
+                        </p>
+                    </li>
+                    <li><button class="faq-opt">What can I watch on Netflix?<i class="fa fa-plus"></i></button>
+                        <p>
+                            <br>Netflix has an extensive library of feature films, documentaries, <br>
+                            TV shows, anime, award-winning Netflix originals, and more. <br>
+                            Watch as much as you want, anytime you want.<br><br>
+                        </p>
+                    </li>
+                    <li><button class="faq-opt">Is Netflix good for kids?<i class="fa fa-plus"></i></button>
+                        <p>
+                            The Netflix Kids experience is included in your membership to <br>
+                            give parents control while kids enjoy family-friendly TV shows <br>
+                            and films in their own space.<br><br>
+
+                            Kids profiles come with PIN-protected parental controls that let <br>
+                            you restrict the maturity rating of content kids can watch and <br>
+                            block specific titles you don’t want kids to see.<br><br>
+                        </p>
+                    </li>
+                </ul>
+                <!--Mail-id to subscribe-->
+                <p class="readyToWatch">Ready to watch? Enter your email to create or restart your membership.</p>
+                <div class="email-form">
+                    <form method="post" class="form-mail-id">
+                        <input type="email" class="mail-id" placeholder="Email address" required>
+                        <button type="button" id="email"><a href="https://www.netflix.com/signup/registration?locale=en-IN">Get Started ></a>
+                    </form>
+                </div>
+        </section>
+    <!--section 7 : enquiry-->
+        <footer>
+            <div class="enquiry">
+                <p>Questions? Call <a href="tel:000-800-040-1843">000-800-040-1843</a></p>
+            </div>
+            <div class="last-list">
+                <ul class="extra-details">
+                    <li><a href="https://help.netflix.com/en/node/412">FAQ</a></li>
+                    <li><a href="https://ir.netflix.net/ir-overview/profile/default.aspx">Investor Relations</a></li>
+                    <li><a href="https://help.netflix.com/legal/privacy">Privacy</a></li>
+                    <li><a href="https://fast.com/">Speed Test</a></li>
+                    <li><a href="https://help.netflix.com/en/">Help Centre</a></li>
+                    <li><a href="https://jobs.netflix.com/">Jobs</a></li>
+                    <li><a href="https://www.netflix.com/in/">Cookie Preferences</a></li>
+                    <li><a href="https://help.netflix.com/legal/notices">Legal Notices</a></li>
+                    <li><a href="https://www.netflix.com/in/login?nextpage=https%3A%2F%2Fwww.netflix.com%2Fyouraccount">Account</a></li>
+                    <li><a href="https://devices.netflix.com/en/">Ways to Watch</a></li>
+                    <li><a href="https://help.netflix.com/legal/corpinfo">Corporate Information</a></li>
+                    <li><a href="https://www.netflix.com/in/browse/genre/839338">Only on Netflix</a></li>
+                    <li><a href="https://media.netflix.com/en/">Media Centre</a></li>
+                    <li><a href="https://help.netflix.com/legal/termsofuse">Terms of Use</a></li>
+                    <li><a href="https://help.netflix.com/en/contactus">Contact Us</a></li>
+                </ul>
+            </div>
+            <!--Languages-->
+            <select class="language-selector">
+                <option value="english" selected>English</option>
+                <option value="hindi">हिन्दी</option>
+            </select>
+            <p>Netflix India</p>
+        </footer>
+    </body>
+</html>
